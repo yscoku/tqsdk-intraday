@@ -27,10 +27,10 @@
 | 14 | VWAP 回归策略 | VWAP策略 | SHFE.rb | [14_vwap_reversion.py](strategies/14_vwap_reversion.py) |
 | 15 | 布林带 scalping 策略 | scalping | SHFE.rb | [15_boll_scalp.py](strategies/15_boll_scalp.py) |
 | 16 | 动量日内策略 | 动量策略 | SHFE.rb | [16_intraday_momentum.py](strategies/16_intraday_momentum.py) |
-| 17 | 成交量突破策略 | 成交量策略 | SHFE.rb | [17_volume_breakout.py](strategies/17_volume_breakout.py) |
-| 18 | 均线支撑阻力策略 | 均线策略 | SHFE.rb | [18_ma_support_resistance.py](strategies/18_ma_support_resistance.py) |
-| 19 | 突破回踩策略 | 突破策略 | SHFE.rb | [19_breakout_retest.py](strategies/19_breakout_retest.py) |
-| 20 | 收盘价突破策略 | 突破策略 | SHFE.rb | [20_close_breakout.py](strategies/20_close_breakout.py) |
+| 17 | 动量日内策略 | 动量策略 | SHFE.rb | [17_intraday_momentum.py](strategies/17_intraday_momentum.py) |
+| 18 | 焦炭日内动量策略 | 动量策略 | DCE.j | [18_j_momentum.py](strategies/18_j_momentum.py) |
+| 19 | 焦炭日内布林带趋势策略 | 布林带趋势 | DCE.j | [19_j_boll_trend.py](strategies/19_j_boll_trend.py) |
+| 20 | 焦煤日内区间突破策略 | 区间突破 | DCE.jm | [20_jm_range_breakout.py](strategies/20_jm_range_breakout.py) |
 
 ## 策略分类
 
@@ -45,6 +45,9 @@
 
 ### 📈 动量策略
 基于价格动量进行交易。
+
+### 🎯 布林带趋势策略
+结合布林带指标进行日内趋势交易。
 
 ## 环境要求
 
@@ -62,4 +65,4 @@ pip install tqsdk numpy pandas
 
 **持续更新中，欢迎 Star ⭐ 关注**
 
-*更新时间：2026-03-11*
+*更新时间：2026-03-13*
